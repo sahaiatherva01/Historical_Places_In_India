@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Historical Places in India</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Roboto', sans-serif;
+            color: #444;
+            background-color: #f8f9fa;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1rem;
+            text-align: center;
+            position:fixed;
+            top: 0;
+            width: 100%;
+            z-index: 1000;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+
+        header h1 {
+            font-size: 1.8rem;
+            letter-spacing: 1px;
+        }
+
+        footer {
+            background-color: #1a1a1a;
+            color: #fff;
+            text-align: center;
+            padding: 0.5rem;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
+        }
+
+        footer p {
+            font-size: 0.9rem;
+        }
+
+        main {
+            padding: 6rem 2rem 4rem;
+        }
+
+        .state-section {
+            margin-bottom: 3rem;
+        }
+
+        .state-section h2 {
+            font-size: 2rem;
+            color: #333;
+            margin-bottom: 1rem;
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 0.5rem;
+        }
+
+        .card-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+        }
+
+        .card {
+            background: #fff;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+
+        .card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .card-content {
+            padding: 1.5rem;
+        }
+
+        .card-content h3 {
+            margin-bottom: 1rem;
+            font-size: 1.6rem;
+            color: #333;
+        }
+
+        .card-content p {
+            font-size: 1rem;
+            color: #555;
+            line-height: 1.5;
+        }
+
+        @media (max-width: 789px) {
+            header h1 {
+                font-size: 1.5rem;
+            }
+
+            footer p {
+                font-size: 0.8 rem;
+            }
+
+            .card-content h3 {
+                font-size: 1.5rem;
+            }
+
+            .card-content p {
+                font-size: 0.95rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Historical Places in India</h1>
+    </header>
+<br>
+    <main>
+        <div align = "center">
+            <h1><b>Famous Historical Places Across Indian States</b></h1>
+        </div>
+        <br>
+        <div class="state-section">
+            <h2>Uttar Pradesh</h2>
+            <div class="card-container">
+                <div class="card">
+                    <img src="TajMahal.jpeg" alt="Taj Mahal">
+                    <div class="card-content">
+                        <h3>Taj Mahal</h3>
+                        <p>Located in Agra, the Taj Mahal is a stunning mausoleum built by Emperor Shah Jahan in memory of his wife Mumtaz Mahal. It is a symbol of love and one of the Seven Wonders of the World.</p>
+                        <a href="TajMahal.html"><div align = "center">Learn More...</div></a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="Kashi_Vishwanath.jpg" alt="Kashi Vishwanath Temple">
+                    <div class="card-content">
+                        <h3>Kashi Vishwanath Temple</h3>
+                        <p>Located in Varanasi, is one of the holiest Shiva temples in India. Revered as a Jyotirlinga, it holds immense spiritual significance and attracts millions of devotees annually.</p>
+                        <a href="https://en.wikipedia.org/wiki/Kashi_Vishwanath_Temple"><div align = "center">Learn More...</div></a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="Bara-Imambara_.jpg" alt="Bada Imambara">
+                    <div class="card-content">
+                        <h3>Bada Imambara</h3>
+                        <p>Located in Lucknow, India, is a grand 18th-century architectural marvel built by Asaf-ud-Daula. Known for its central hall without support beams, it also features a fascinating labyrinth called Bhool Bhulaiya.</p>
+                        <a href="https://en.wikipedia.org/wiki/Bara_Imambara"><div align = "center">Learn More...</div></a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="agra-fort.jpg" alt="Agra Fort">
+                    <div class="card-content">
+                        <h3>Agra Fort</h3>
+                        <p>A UNESCO World Heritage Site, Agra Fort is a historical fort in Agra, known for its architectural grandeur and history during the Mughal era.</p>
+                        <br>
+                        <a href="https://en.wikipedia.org/wiki/Agra_Fort"><div align = "center">Learn More...</div></a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="diwan-e-aam.jpg" alt="Diwan-I-Aam, Fatehpur Sikri">
+                    <div class="card-content">
+                        <h3>Diwan-I-Aam, Fatehpur Sikri</h3>
+                        <p>Served as the public audience hall of Emperor Akbar. This open courtyard, surrounded by stunning Mughal architecture, was a space for addressing the concerns of the common people.</p>
+                        <br>
+                        <a href="https://en.wikipedia.org/wiki/Fatehpur_Sikri#:~:text=Diwan%2Di%2DAam%3A%20Diwan,fronting%20a%20large%20open%20space."><div align = "center">Learn More...</div></a>
+                    </div>
+                </div>
+                
+                <div class="card">
+                    <img src="rumi darwaza.jpeg" alt="Rumi Darwaza">
+                    <div class="card-content">
+                        <h3>Rumi Darwaza</h3>
+                        <p>Located in Lucknow, is a magnificent 18th-century gateway built under Nawab Asaf-ud-Daula. It exemplifies Awadhi architecture and is often referred to as the "Turkish Gate."</p>
+                        <a href="https://en.wikipedia.org/wiki/Rumi_Darwaza"><div align = "center">Learn More...</div></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="state-section">
+            <h2>Delhi</h2>
+            <div class="card-container">
+                <div class="card">
+                    <img src="RedFort.webp" alt="Red Fort">
+                    <div class="card-content">
+                        <h3>Red Fort</h3>
+                        <p>Situated in Delhi, the Red Fort was the main residence of Mughal emperors. Its red sandstone walls are iconic and steeped in history.</p>
+                        <a href="https://en.wikipedia.org/wiki/Red_Fort"><div align = "center">Learn More...</div></a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="QutubMinar.jpg" alt="Qutub Minar">
+                    <div class="card-content">
+                        <h3>Qutub Minar</h3>
+                        <p>The Qutub Minar in Delhi is a UNESCO World Heritage Site and the tallest brick minaret in the world. It represents Indo-Islamic architecture.</p>
+                        <a href="https://en.wikipedia.org/wiki/Qutb_Minar"><div align = "center">Learn More...</div></a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="Indiagate.webp" alt="India Gate">
+                    <div class="card-content">
+                        <h3>India Gate</h3>
+                        <p>A war memorial located in New Delhi, India Gate is a tribute to the soldiers who lost their lives during World War I.</p>
+                        <a href="https://en.wikipedia.org/wiki/India_Gate"><div align = "center">Learn More...</div></a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="Jantar Mantar.jpg" alt="Jantar Mantar">
+                    <div class="card-content">
+                        <h3>Jantar Mantar</h3>
+                        <p>Situated in Delhi, is an astronomical observatory built in the 18th century by Maharaja Jai Singh II. It features a collection of large instruments used to measure time, track celestial bodies, and observe astronomical events.</p>
+                        <a href="https://en.wikipedia.org/wiki/Jantar_Mantar,_New_Delhi"><div align = "center">Learn More...</div></a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="Humayun.jpeg" alt="Humayun’s Tomb">
+                    <div class="card-content">
+                        <h3>Humayun’s Tomb</h3>
+                        <p>Situated in Delhi,  is a stunning example of Mughal architecture, built in the mid-16th century for Emperor Humayun. It is known for its grand structure, beautiful gardens, and the first garden tomb on the Indian subcontinent.</p>
+                        <a href="https://en.wikipedia.org/wiki/Humayun%27s_Tomb"><div align = "center">Learn More...</div></a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="jama masjid.jpeg" alt="Jama Masjid">
+                    <div class="card-content">
+                        <h3>Jama Masjid</h3>
+                        <p>Situated in Delhi, one of the largest mosques in India, was built by Mughal Emperor Shah Jahan in the 17th century. Its stunning architecture, vast courtyard, and majestic minarets make it a prominent symbol of Mughal grandeur.</p>
+                        <a href="https://en.wikipedia.org/wiki/Jama_Masjid,_Delhi"><div align = "center">Learn More...</div></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="state-section">
+            <h2>West Bengal</h2>
+            <div class="card-container">
+                <div class="card">
+                    <img src="Victoria Memorial.jpeg" alt="Victoria Memorial">
+                    <div class="card-content">
+                        <h3>Victoria Memorial</h3>
+                        <p>Located in Kolkata is a majestic marble building built in honor of Queen Victoria, showcasing a blend of British and Mughal architectural styles. Surrounded by lush gardens, it now serves as a museum and a symbol of Kolkata's colonial history.</p>
+                        <a href="https://en.wikipedia.org/wiki/Victoria_Memorial,_Kolkata"><div align = "center">Learn More...</div></a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="howrah-bridge-.jpg" alt="Howrah Bridge">
+                    <div class="card-content">
+                        <h3>Howrah Bridge</h3>
+                        <p>An iconic cantilever bridge in Kolkata, spans the Hooghly River and connects the city to its industrial suburbs. Completed in 1943, it is one of the busiest bridges in the world, symbolizing Kolkata's engineering prowess.</p>
+                        <br>
+                        <a href="https://en.wikipedia.org/wiki/Howrah_Bridge"><div align = "center">Learn More...</div></a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="belur math.jpg" alt="Belur Math">
+                    <div class="card-content">
+                        <h3>Belur Math</h3>
+                        <p>Located in Kolkata, is the headquarters of the Ramakrishna Order and a renowned spiritual center. Its serene architecture blends Hindu, Christian, and Islamic elements, symbolizing religious unity and harmony.</p>
+                        <br>
+                        <a href="https://en.wikipedia.org/wiki/Belur_Math"><div align = "center">Learn More...</div></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="state-section">
+            <h2>Rajasthan</h2>
+            <div class="card-container">
+                <div class="card">
+                    <img src="HawaMahal.jpg" alt="Hawa Mahal">
+                    <div class="card-content">
+                        <h3>Hawa Mahal</h3>
+                        <p>Located in Jaipur, Hawa Mahal is a palace known for its unique honeycomb structure with 953 small windows. It was built for royal women to observe street festivals unseen.</p>
+                        <br>
+                        <br>
+                        <a href="https://en.wikipedia.org/wiki/Hawa_Mahal"><div align = "center">Learn More...</div></a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="jaisalmer.png" alt="Jaisalmer Fort">
+                    <div class="card-content">
+                        <h3>Jaisalmer Fort</h3>
+                        <p>A breathtaking fort in the heart of the Thar Desert, Jaisalmer Fort is one of the largest forts in the world.</p>
+                        <br>
+                        <br>
+                        <br>
+                        <a href="https://en.wikipedia.org/wiki/Jaisalmer_Fort"><div align = "center">Learn More...</div></a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="Amber fort.jpeg" alt="Amber Fort">
+                    <div class="card-content">
+                        <h3>Amber Fort</h3>
+                        <p>Located in Jaipur, is a majestic hilltop fort known for its blend of Hindu and Mughal architectural styles. Built by Raja Man Singh in the 16th century, it features grand courtyards, intricate mirror work, and stunning views of the surrounding landscape.</p>
+                        <a href="https://en.wikipedia.org/wiki/Amber_Fort"><div align = "center">Learn More...</div></a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="mehrangarh-fort-.jpeg" alt="Mehrangarh Fort">
+                    <div class="card-content">
+                        <h3>Mehrangarh Fort</h3>
+                        <p>Situated in Jodhpur, is one of the largest and most impressive forts in India, built in the 15th century by Rao Jodha. Its towering walls, intricate carvings, and expansive courtyards offer a glimpse into Rajasthan's royal history.</p>
+                        <a href="https://en.wikipedia.org/wiki/Mehrangarh"><div align = "center">Learn More...</div></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="state-section">
+            <h2>Maharashtra</h2>
+            <div class="card-container">
+                <div class="card">
+                    <img src="gateway.avif" alt="Gateway of India">
+                    <div class="card-content">
+                        <h3>Gateway of India</h3>
+                        <p>Located in Mumbai, this iconic arch-monument was built to commemorate the landing of King George V and Queen Mary.</p>
+                        <a href="https://en.wikipedia.org/wiki/Gateway_of_India"><div align = "center">Learn More...</div></a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="ajanta.jpeg" alt="Ajanta Caves">
+                    <div class="card-content">
+                        <h3>Ajanta Caves</h3>
+                        <p>Ajanta Caves are rock-cut Buddhist caves famous for their paintings and sculptures, dating back to the 2nd century BCE.</p>
+                        <a href="https://en.wikipedia.org/wiki/Ajanta_Caves"><div align = "center">Learn More...</div></a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="ellora.webp" alt="Ellora Caves">
+                    <div class="card-content">
+                        <h3>Ellora Caves</h3>
+                        <p>Ellora Caves in Maharashtra are a UNESCO World Heritage Site known for their monumental caves representing Hindu, Buddhist, and Jain art.</p>
+                        <a href="https://en.wikipedia.org/wiki/Ellora_Caves"><div align = "center">Learn More...</div></a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="Elephant caves.webp" alt="Elephanta Caves">
+                    <div class="card-content">
+                        <h3>Elephanta Caves</h3>
+                        <p>located on Elephanta Island near Mumbai, are a UNESCO World Heritage site known for their rock-cut sculptures and ancient Hindu temple complex.</p>
+                        <a href="https://en.wikipedia.org/wiki/Elephanta_Caves"><div align = "center">Learn More...</div></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="state-section">
+            <h2>Madhya Pradesh</h2>
+            <div class="card-container">
+                <div class="card">
+                    <img src="khujrao.cms" alt="Khajuraho Temples">
+                    <div class="card-content">
+                        <h3>Khajuraho Temples</h3>
+                        <p>Located in Madhya Pradesh are famous for their stunning architecture and intricate sculptures, including erotic art, reflecting the Chandela dynasty's cultural heritage.</p>
+                        <br>
+                        <a href="https://en.wikipedia.org/wiki/Khajuraho_Group_of_Monuments"><div align = "center">Learn More...</div></a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="Sanchi Stupa.webp" alt="Sanchi Stupa">
+                    <div class="card-content">
+                        <h3>Sanchi Stupa</h3>
+                        <p>Located in Madhya Pradesh, is one of the oldest stone structures in India, built by Emperor Ashoka in the 3rd century BCE. It is a significant Buddhist monument, known for its detailed carvings and symbolic gateways.</p>
+                        <a href="https://en.wikipedia.org/wiki/Sanchi"><div align = "center">Learn More...</div></a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="Gwalior Fort.jpg" alt="Gwalior Fort">
+                    <div class="card-content">
+                        <h3>Gwalior Fort</h3>
+                        <p>Gwalior Fort, dating back to the 8th century, is known for its grand architecture and historical significance. It houses notable structures like Man Singh Palace and Gujari Mahal.</p>
+                        <br>
+                        <a href="https://en.wikipedia.org/wiki/Gwalior_Fort"><div align = "center">Learn More...</div></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="state-section">
+            <h2>Tamil Nadu</h2>
+            <div class="card-container">
+                <div class="card">
+                    <img src="brihadeeshwara temple.jpg" alt="Brihadeeswarar Temple">
+                    <div class="card-content">
+                        <h3>Brihadeeswarar Temple</h3>
+                        <p>A UNESCO World Heritage Site, this Chola dynasty temple in Thanjavur is a masterpiece of Dravidian architecture.</p>
+                        <br>
+                        <br>
+                        <a href="https://en.wikipedia.org/wiki/Brihadisvara_Temple"><div align = "center">Learn More...</div></a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="Mahabalipuram.jpeg" alt="Mahabalipuram">
+                    <div class="card-content">
+                        <h3>Mahabalipuram</h3>
+                        <p>Famous for its rock-cut sculptures and Shore Temple, Mahabalipuram is a historical town and UNESCO World Heritage Site.</p>
+                        <br>
+                        <br>
+                        <a href="https://en.wikipedia.org/wiki/Mamallapuram"><div align = "center">Learn More...</div></a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="meenakshi-temple.avif" alt="Meenakshi Temple">
+                    <div class="card-content">
+                        <h3>Meenakshi Temple</h3>
+                        <p>The Meenakshi Temple in Madurai is a stunning example of Dravidian architecture, dedicated to Goddess Meenakshi and Lord Sundareswarar. Known for its intricately sculpted towers, it is a major pilgrimage site and cultural landmark.</p>
+                        <a href="https://en.wikipedia.org/wiki/Meenakshi_Temple"><div align = "center">Learn More...</div></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="state-section">
+            <h2>Karnatka</h2>
+            <div class="card-container">
+                <div class="card">
+                    <img src="Hampi.jpeg" alt="Hampi">
+                    <div class="card-content">
+                        <h3>Hampi</h3>
+                        <p>Hampi, a UNESCO World Heritage site in Karnataka, is renowned for its ancient ruins and stunning temples, once part of the Vijayanagara Empire. The site features remarkable structures like the Virupaksha Temple and the Stone Chariot.</p>
+                        <br>
+                        <a href="https://en.wikipedia.org/wiki/Hampi"><div align = "center">Learn More...</div></a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="Mysore Palace.jpeg" alt="Mysore Palace">
+                    <div class="card-content">
+                        <h3>Mysore Palace</h3>
+                        <p>Mysore Palace, a grand royal residence in Karnataka, is known for its Indo-Saracenic architecture and ornate interiors. It serves as a symbol of the Wodeyar dynasty and attracts visitors with its stunning beauty and historical significance.</p>
+                        <a href="https://en.wikipedia.org/wiki/Mysore_Palace"><div align = "center">Learn More...</div></a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="Gol_Gumbaj2.JPG" alt="Gol Gumbaz">
+                    <div class="card-content">
+                        <h3>Gol Gumbaz</h3>
+                        <p>Located in Bijapur, is a massive mausoleum built in the 17th century for Sultan Muhammad Adil Shah. Its iconic dome is one of the largest in the world and is known for its remarkable acoustics.</p>
+                        <br>
+                        <br>
+                        <a href="https://en.wikipedia.org/wiki/Gol_Gumbaz"><div align = "center">Learn More...</div></a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="Badami CAves.jpeg" alt="Badami Caves">
+                    <div class="card-content">
+                        <h3>Badami Caves</h3>
+                        <p>Located in Karnataka, are a group of rock-cut temples dating back to the 6th century. Known for their intricate carvings and ancient architecture, they reflect the religious diversity of the time, including Hindu, Jain, and Buddhist influences.</p>
+                        <a href="https://en.wikipedia.org/wiki/Badami_cave_temples"><div align = "center">Learn More...</div></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="state-section">
+            <h2>Gujrat</h2>
+            <div class="card-container">
+                <div class="card">
+                    <img src="Modhera Sun temple.jpeg" alt="Modhera Sun Temple">
+                    <div class="card-content">
+                        <h3>Modhera Sun temple</h3>
+                        <p>Located in Gujarat, built in the 11th century, is dedicated to the Sun God and showcases exquisite Solanki-era architecture. Known for its intricate carvings, it features a grand stepwell and a beautifully designed assembly hall.</p>
+                        <a href="https://en.wikipedia.org/wiki/Sun_Temple,_Modhera"><div align = "center">Learn More...</div></a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="Laxmi Vilas Palace.webp" alt="Laxmi Vilas Palace">
+                    <div class="card-content">
+                        <h3>Laxmi Vilas Palace</h3>
+                        <p>Located in Vadodara, Gujarat, is a grand residence built in the 19th century for the Maratha rulers, known for its impressive Indo-Saracenic architecture.</p>
+                        <br>
+                        <a href="https://en.wikipedia.org/wiki/Lakshmi_Vilas_Palace,_Vadodara"><div align = "center">Learn More...</div></a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="rani-ki-vav_.avif" alt="Rani ki Vav">
+                    <div class="card-content">
+                        <h3>Rani ki Vav</h3>
+                        <p>Located in Patan, Gujarat, is an ancient stepwell built in the 11th century, known for its intricate sculptures and architectural beauty. A UNESCO World Heritage site, it showcases the grandeur of Solanki-era craftsmanship.</p>
+                        <a href="https://en.wikipedia.org/wiki/Rani_ki_Vav"><div align = "center">Learn More...</div></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="state-section">
+            <h2>Punjab</h2>
+            <div class="card-container">
+                <div class="card">
+                    <img src="Golden temple.webp" alt="Golden Temple">
+                    <div class="card-content">
+                        <h3>Golden Temple</h3>
+                        <p>Located in Amritsar, is the holiest shrine of Sikhism, known for its stunning gold-plated structure and serene Amrit Sarovar. It symbolizes equality and spiritual peace, welcoming people of all faiths.</p>
+                        <a href="https://en.wikipedia.org/wiki/Golden_Temple"><div align = "center">Learn More...</div></a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="Jallianwala Bagh.webp" alt="Jallianwala Bagh">
+                    <div class="card-content">
+                        <h3>Jallianwala Bagh</h3>
+                        <p>Located in Amritsar is a historic site commemorating the 1919 massacre where hundreds were killed during a peaceful protest. It stands as a somber reminder of India's struggle for independence.</p>
+                        <a href="https://en.wikipedia.org/wiki/Jallianwala_Bagh_massacre"><div align = "center">Learn More...</div></a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="Sheesh Mahal.jpeg" alt="Sheesh Mahal ">
+                    <div class="card-content">
+                        <h3>Sheesh Mahal </h3>
+                        <p>Sheesh Mahal in Jaipur, located within the Amber Fort, is a dazzling hall known for its intricate mirror work and stunning craftsmanship. Its walls and ceilings, adorned with tiny mirrors, create a sparkling effect when illuminated.</p>
+                        <a href="https://en.wikipedia.org/wiki/Sheesh_Mahal"><div align = "center">Learn More...</div></a>
+                    </div>
+            </div>
+        </div> 
+    </main>
+    <br>
+    <br>
+    <footer>
+        <p>Designed and developed by Atherva Sahai</p>
+    </footer>
+</body>
+</html>
